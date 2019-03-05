@@ -1,7 +1,7 @@
 #' SelectQuery
 #'
 #' @param query Requete SQL
-#' @param con Connexion sur laquelle executer la connexion sql
+#' @param con Connection DBI
 #' @export
 #' @import DBI
 #' @import errorhandlr
@@ -19,8 +19,8 @@ SelectQuery <- function(query, con) {
 
 #' DeleteQuery
 #'
-#' @param query
-#' @param con
+#' @param query String SQL query
+#' @param con DBI Connection
 #'
 #' @import DBI
 #' @return
@@ -39,8 +39,8 @@ DeleteQuery <- function(query, con) {
 }
 #' sendQuery
 #'
-#' @param query
-#' @param con
+#' @param query String SQL query
+#' @param con DBI connection
 #'
 #' @return
 #' @export

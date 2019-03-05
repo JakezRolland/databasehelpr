@@ -9,7 +9,7 @@ SelectQuery(query, con)
 \arguments{
 \item{query}{Requete SQL}
 
-\item{con}{Connexion sur laquelle executer la connexion sql}
+\item{con}{Connection DBI}
 }
 \value{
 Renvois un data.frame avec les resultats

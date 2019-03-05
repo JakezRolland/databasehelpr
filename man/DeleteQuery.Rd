@@ -7,7 +7,9 @@
 DeleteQuery(query, con)
 }
 \arguments{
-\item{con}{}
+\item{query}{String SQL query}
+
+\item{con}{DBI Connection}
 }
 \description{
 DeleteQuery
